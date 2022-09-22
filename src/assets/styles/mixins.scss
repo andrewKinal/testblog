@@ -1,0 +1,7 @@
+@import './variables.scss';
+
+@mixin background() {
+  background: #36d1dc;
+  background: -webkit-linear-gradient(to right, $lighter-blue-color, $darker-blue-color);
+  background: linear-gradient(to right, $lighter-blue-color, $darker-blue-color);
+}
